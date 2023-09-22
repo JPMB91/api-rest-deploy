@@ -3,7 +3,7 @@ const movies = require('./movies.json')
 const crypto = require('node:crypto')
 const cors = require('cors')
 
-const { validateMovie, validatePartialMovie } = require('../clase-3/schemas/movies.js')
+const { validateMovie, validatePartialMovie } = require('./schemas/movies.js')
 
 const app = express()
 app.disable('x-powered-by') // deshabilita el header que indica version de express
